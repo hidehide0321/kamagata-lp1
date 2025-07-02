@@ -1,0 +1,133 @@
+/* 基本設定 */
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* ヘッダー */
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+
+header h1 {
+    float: left;
+    margin-top: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+/* メインビジュアル */
+#hero {
+    min-height: 400px;
+    background-color: #6c757d; /* 仮の背景色 */
+    text-align: center;
+    color: #fff;
+}
+
+#hero h2 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 20px;
+}
+
+/* ボタン */
+.cta-button {
+    display: inline-block;
+    background: #0779e4;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* セクション共通 */
+section {
+    padding: 40px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+/* 私たちの強み */
+.features {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.feature {
+    width: 30%;
+}
+
+/* お問い合わせフォーム */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background: #0779e4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* フッター */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
