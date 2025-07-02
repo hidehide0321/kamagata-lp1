@@ -113,14 +113,26 @@ header a {
   background-image: url("images/4141523_s.jpg");
   background-size: cover;
   background-position: center;
-  position: relative;
-  color: #fff;
+  color: #fff; /* テキスト色を白に */
+  min-height: 500px; /* 縦幅を25%広げる */
+  text-align: center; /* 中央寄せ */
 }
 
-.hero-overlay {
-  background-color: rgba(0, 0, 0, 0.5); /* 黒い透過レイヤー */
-  padding: 5em 2em;
-  text-align: center;
+#hero h2 {
+    font-size: 68.75px; /* 25%大きく */
+}
+
+#hero p {
+    font-size: 25px; /* 25%大きく */
+}
+
+#hero h2,
+#hero p,
+#hero .cta-button {
+    text-shadow: -1px -1px 0 #000,  
+                 1px -1px 0 #000,
+                -1px 1px 0 #000,
+                 1px 1px 0 #000; /* 黒い袋文字 */
 }
 
 /* ボタン */
@@ -179,12 +191,38 @@ form button {
     cursor: pointer;
 }
 
+.radio-group label {
+    margin-right: 15px;
+}
+
 /* フッター */
 footer {
     background: #333;
     color: #fff;
     text-align: center;
     padding: 30px;
+}
+
+/* ストーリーセクションのスタイル */
+#story p {
+  line-height: 1.8;
+  margin-bottom: 1.5em;
+}
+
+#story {
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+/* セクション間の余白を統一 */
+section .container {
+  margin-bottom: 5em;
+}
+
+/* CTAセクションのスタイル */
+.cta-section {
+  text-align: center;
+  margin: 3em auto;
 }
 
 /* メディアクエリ */

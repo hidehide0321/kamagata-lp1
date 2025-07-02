@@ -1,0 +1,1 @@
+Add overlay to hero section and update hero content.
