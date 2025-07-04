@@ -127,8 +127,7 @@ header a {
 }
 
 #hero h2,
-#hero p,
-#hero .cta-button {
+#hero p {
     text-shadow: -1px -1px 0 #000,  
                  1px -1px 0 #000,
                 -1px 1px 0 #000,
